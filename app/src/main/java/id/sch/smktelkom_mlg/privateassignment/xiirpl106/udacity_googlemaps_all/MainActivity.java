@@ -14,7 +14,7 @@ import android.view.MenuItem;
 import id.sch.smktelkom_mlg.privateassignment.xiirpl106.udacity_googlemaps_all.Fragment.DrawCircleFragment;
 import id.sch.smktelkom_mlg.privateassignment.xiirpl106.udacity_googlemaps_all.Fragment.MapModeFragment;
 import id.sch.smktelkom_mlg.privateassignment.xiirpl106.udacity_googlemaps_all.Fragment.MovingMapFragment;
-import id.sch.smktelkom_mlg.privateassignment.xiirpl106.udacity_googlemaps_all.Fragment.PlaceMakerFragment;
+import id.sch.smktelkom_mlg.privateassignment.xiirpl106.udacity_googlemaps_all.Fragment.PlaceMarkerFragment;
 import id.sch.smktelkom_mlg.privateassignment.xiirpl106.udacity_googlemaps_all.Fragment.StreetViewFragment;
 
 public class MainActivity extends AppCompatActivity
@@ -92,7 +92,7 @@ public class MainActivity extends AppCompatActivity
             fragment = new MovingMapFragment();
             setTitle("Moving Map");
         } else if (id == R.id.nav_place_marker) {
-            fragment = new PlaceMakerFragment();
+            fragment = new PlaceMarkerFragment();
             setTitle("Place Marker");
         } else if (id == R.id.nav_draw_circle) {
             fragment = new DrawCircleFragment();

@@ -77,7 +77,7 @@ public class MapModeFragment extends Fragment implements OnMapReadyCallback {
     public void onMapReady(GoogleMap googleMap) {
         mapReady = true;
         m_map = googleMap;
-        LatLng smktelkom = new LatLng(-7.976830, 112.658958);
+        LatLng smktelkom = new LatLng(48.8584, 2.2945);
         CameraPosition target = CameraPosition.builder().target(smktelkom).zoom(14).build();
         m_map.moveCamera(CameraUpdateFactory.newCameraPosition(target));
     }

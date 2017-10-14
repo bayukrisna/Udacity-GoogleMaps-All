@@ -27,21 +27,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Papua"/>
+                android:text="Paris"/>
 
             <Button
                 android:id="@+id/btnBali"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Bali"/>
+                android:text="Amsterdam"/>
 
             <Button
                 android:id="@+id/btnJkt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Jakarta"/>
+                android:text="Singapore"/>
         </LinearLayout>
 
         <fragment xmlns:android="http://schemas.android.com/apk/res/android"

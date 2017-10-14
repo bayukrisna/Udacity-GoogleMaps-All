@@ -24,25 +24,25 @@ import id.sch.smktelkom_mlg.privateassignment.xiirpl106.udacity_googlemaps_all.R
 public class MovingMapFragment extends Fragment implements OnMapReadyCallback {
 
     static final CameraPosition TBN = CameraPosition.builder()
-            .target(new LatLng(-6.895485, 112.029752))
+            .target(new LatLng(48.8584, 2.2945))
             .zoom(17)
             .bearing(90)
             .tilt(45)
             .build();
     static final CameraPosition PAPUA = CameraPosition.builder()
-            .target(new LatLng(-4.269928, 138.080353))
+            .target(new LatLng(37.5665, 126.9780))
             .zoom(17)
             .bearing(0)
             .tilt(45)
             .build();
     static final CameraPosition BALI = CameraPosition.builder()
-            .target(new LatLng(-8.719735, 115.169073))
+            .target(new LatLng(52.3702, 4.8952))
             .zoom(17)
             .bearing(0)
             .tilt(45)
             .build();
     static final CameraPosition JKT = CameraPosition.builder()
-            .target(new LatLng(-6.175110, 106.865039))
+            .target(new LatLng(1.2836, 103.8604))
             .zoom(17)
             .bearing(90)
             .tilt(45)
